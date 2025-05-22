@@ -37,7 +37,7 @@ from timm.utils import ApexScaler, NativeScaler
 
 from torch.utils.tensorboard import SummaryWriter
 from models.spikformer_braincog_DVS import spikformer_dvs
-from models.spikformer_braincog_DVS import spikformer_shd
+from models.spikformer_braincog_SHD import spikformer_shd
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
